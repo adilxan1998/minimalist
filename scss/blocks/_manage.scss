@@ -1,0 +1,138 @@
+.manage__inner {
+  margin-top: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage__box {
+  max-width: 350px;
+}
+
+.manage__line {
+  margin-bottom: 48px;
+  background: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.manage__box-title {
+  margin-top: 0;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+
+.manage__box-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.manage__box-span {
+  padding-top: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  color: #5FB4A2;
+}
+
+.manage__button {
+  margin-top: 40px;
+  margin-bottom: 48px;
+}
+
+.manage__project {
+  max-width: 635px;
+}
+
+.manage__project-title {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #33323D;
+}
+
+.manage__project-text {
+  max-width: 635px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D; 
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.manage__project-img {
+  margin-top: 32px;
+}
+
+@media only screen and(max-width: 1050px) {
+  .manage {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .manage__inner {
+    margin-top: 40px;
+    display: block;
+  }
+
+  .manage__box {
+    position: relative;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .manage__box-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .manage__box-text {
+    position: absolute;
+    margin-left: auto;
+    left: 350px;
+    bottom: 50px;
+  }
+
+  .manage__box-span {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  .manage__button {
+    margin-top: 0;
+  }
+
+  .manage__project {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and(max-width: 750px) {
+  .manage__box-text {
+    left: 300px;
+  }
+}
+
+@media only screen and(max-width: 555px) {
+  .manage__box-text {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+}

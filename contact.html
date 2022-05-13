@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header--container">
+      <a href="#" class="header__link">
+        <img class="header__logo-img" width="60" height="32" src="./images/logo-img.svg"
+          srcset="./images/logo-img.svg 1x , ./images/logo-img@2x.svg 2x" alt="logo-img">
+      </a>
+  
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="index.html">
+              HOME
+            </a>
+          </li>
+  
+          <li class="header__item">
+            <a class="header__link" href="#">
+              PORTFOLIO
+            </a>
+          </li>
+  
+          <li class="header__item">
+            <a class="header__link" href="./contact.html">
+              CONTACT ME
+            </a>
+          </li>
+        </ul>
+      </nav>
+  
+      <button class="header__btn">
+      </button>
+    </div>
+  </header>
+
+  <section class="contact-hero">
+    <div class="container">
+      <div class="contact-hero__inner ">
+        <img class="contact-hero__desctop" src="./images/contact-hero-bc-desc.jpg" alt="contact-hero-bc-desc" width="1110" height="500">
+        <img class="contact-hero__tab" src="./images/contact-hero-tab.jpg" alt="contact-hero-tab" width="689" height="310">
+        <img class="contact-hero__mobile" src="./images/contact-hero-tel.jpg" alt="contact-hero-tel" width="311" height="140">
+      </div>
+    </div>
+  </section>
+
+  <section class="manage">
+    <div class="container">
+      <div class="manage__inner">
+        <div class="manage__box">
+          <hr class="manage__line">
+          <h2 class="manage__box-title">Manage</h2>
+          <p class="manage__box-text">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS
+          Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
+          <span class="manage__box-span">Interaction Design / Front End Development</span>
+          <span class="manage__box-span">HTML / CSS / JS</span>
+          <button class="button  manage__button">VISIT WEBSITE</button>
+          <hr class="manage__line">
+        </div>
+        <div class="manage__project">
+          <h3 class="manage__project-title">Project Background</h3>
+          <p class="manage__project-text">This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building
+          websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website
+          should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world
+          coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.</p>
+          <h3 class="manage__project-title">Static Previews</h3>
+          <img class="manage__project-img" src="./images/products.png" alt="products" width="635" height="400">
+          <img class="manage__project-img" src="./images/use.png" alt="use" width="635" height="400">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <div class="projects__inner">
+        <div class="projects__box">
+          <img src="./images/left.svg" alt="left" width="8" height="16">
+          <div class="projects__previous">
+            <p class="projects__text">Fylo</p>
+            <span class="projects__span">Previous Project</span>
+          </div>
+        </div>
+        <div class="projects__line"></div>
+        <div class="projects__box next">
+          <div class="projecst__next">
+            <p class="projects__text">Bookmark</p>
+            <span class="projects__span">Next Project</span>
+          </div>
+          <img src="./images/right.svg" alt="right" width="8" height="16">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project">
+    <div class="container project--container">
+      <h3 class="project__heading">Interested in doing a project together?</h3>
+      <picture class="project__pic">
+        <source media="(max-width : 945px)" srcset="./images/project-line-tablet.png" class="project__line">
+  
+        <img src="./images/project-img.png" alt="" class="project__img">
+      </picture>
+      <button class="project__btn">
+        GO TO PORTFOLIO
+      </button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer--container">
+      <div class="footer__left">
+        <img src="./images/footer-logo-img.png" width="61" height="32" alt="picture" class="footer__logo-img">
+  
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">
+                HOME
+              </a>
+            </li>
+  
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">
+                PORTFOLIO
+              </a>
+            </li>
+  
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">
+                CONTACT ME
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  
+      <div class="footer__right">
+        <a href="#" class="footer__links">
+          <img src="./images/github.svg" width="25" height="24" alt="" class="github">
+        </a>
+  
+        <a href="#" class="footer__links">
+          <img src="./images/twiter.svg" width="24" height="20" alt="picture" class="twiter">
+        </a>
+  
+        <a href="#" class="footer__links">
+          <img src="./images/in.svg" width="24" height="24" alt="picture" class="in">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.contact-hero__inner {
+  margin-top: 40px;
+}
+
+.contact-hero__tab {
+  display: none;
+}
+
+.contact-hero__mobile {
+  display: none;
+}
+
+@media only screen and(max-width: 730px) {
+  .contact-hero__inner {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-hero__desctop {
+    display: none;
+  }
+
+  .contact-hero__tab {
+    display: block;
+  }
+}
+
+@media only screen and(max-width: 350px) {
+  .contact-hero__tab {
+    display: none;
+  }
+
+  .contact-hero__mobile {
+    display: block;
+  }
+}
